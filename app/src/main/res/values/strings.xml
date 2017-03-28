@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">WholdusContactsImport</string>
+
+    <!-- Login activity -->
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="login_button_text">Login</string>
+    <string name="login_incorrect_input">Please enter email and password</string>
+    <string name="login_error">Could not login</string>
+
+    <!-- Main activity -->
+    <string name="import_contacts_button_text">Import Contacts</string>
+    <string name="clear_contacts_button_text">Clear Contacts</string>
+    <string name="logout_button_text">Logout</string>
+
+    <string name="general_error_message">Something went wrong</string>
+    <string name="general_success_message">Success</string>
+</resources>

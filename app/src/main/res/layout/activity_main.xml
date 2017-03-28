@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.wholdus.wholduscontactsimport.MainActivity">
+
+    <Button
+        android:id="@+id/import_contacts_button"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/import_contacts_button_text"
+        style="@style/Base.TextAppearance.AppCompat.Button"/>
+
+    <Button
+        android:id="@+id/clear_contacts_button"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/clear_contacts_button_text"
+        android:layout_below="@id/import_contacts_button"
+        style="@style/Base.TextAppearance.AppCompat.Button"/>
+
+    <Button
+        android:id="@+id/logout_button"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/logout_button_text"
+        android:layout_below="@id/clear_contacts_button"
+        style="@style/Base.TextAppearance.AppCompat.Button"/>
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="invisible"
+        android:id="@+id/progress_bar"/>
+
+</RelativeLayout>
